@@ -26,3 +26,12 @@ Table of Contents
 
 These 4 sections at the top help people to know about me , my work experience will be in the "work" section, it is attatched to websites I have done once we click on their img and it will send you directly to another page that I have built. My contact information is available in "Contact" and my Resume is not available in the portfolio yet. 
 
+**Evidence of my portfolio with images**
+![Top screenshot of my portfolio.](./assets/images/top-portfolio.jpg)
+![Bottom screenshot of my portfolio.](./assets/images/bottom-portfolio.jpg)
+
+## Credits ##
+N/A
+
+## License ##
+N/A
