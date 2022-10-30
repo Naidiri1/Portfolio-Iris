@@ -37,30 +37,38 @@ header {
 
 
 }
- /*img of Iris on header  */
+ /*img of Iris   */
 img{
 height:100px;
 width: 120px;
-margin: 10px;
+margin: 10px ;
 border-radius: 40%;
 
 
 
 }
 
+
+
 header h1 {
     color:rgb(24, 20, 20);
-   
+    padding: 5px 1% 5px 6%;
     margin: 0;
     font-size: 4vw;
     line-height: 1;
     display: inline;
-}
 
-
+  
   /*nav  */
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    font-weight: bold;
 
-
+  }
   nav a {
     text-decoration: none;
     padding: 5px 10px;
@@ -303,6 +311,7 @@ header h1 {
     .contact address {
       flex-direction: column;
       align-items: flex-start;
+
     }
   }
 
@@ -316,10 +325,3 @@ footer {
     text-align: center;
 }
 
-.fas {
-  color: blue;
-  background-color: blue;
-}
-
-
-  
