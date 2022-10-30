@@ -1,11 +1,9 @@
+  /* general  */
 * {
     box-sizing: border-box;
   }
   
-header {
-    background-color: rgb(68, 94, 206);
-}
-
+  /* body */
 body {
     margin: 0;
     padding: 0;
@@ -14,7 +12,7 @@ body {
     background-color:white;
     line-height: 1.5;
   }
-  
+    /* Headers */
 h1,
 h2,
 h3,
@@ -26,10 +24,11 @@ h6 {
 }
 
 p {
-  margin: 5;
+  margin: 5px;
 }
     
 header {
+  background-color: rgb(68, 94, 206);
   padding: 15px 6% 10px 10;
   flex-direction: row;
   display: flex;
@@ -49,7 +48,7 @@ header h1 {
     display: inline;
 
   
-
+  /*nav  */
 }
 nav {
     display: flex;
@@ -76,11 +75,15 @@ nav {
     margin-right: 0;
   }
   
+    /* main  */
   main {
     margin-top: 20px;
     margin-bottom: 45px;
 
   }
+
+  /*section class="page*/
+
   .page  {
     background-color: rgb(56, 78, 78);
     background-image:url("../images/image-one.jpg");
@@ -110,10 +113,15 @@ nav {
     line-height: 1.2;
     display: inline;
   }
+
+
+
+    /*main class content*/
   .content {
     max-width: 88%;
     margin-left: auto;
     margin-right: auto;
+    
   }
   .page-section {
     margin: 25px 0;
