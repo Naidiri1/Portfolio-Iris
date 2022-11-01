@@ -29,7 +29,7 @@ p {
 }
     
 header {
-  background-color: rgb(68, 94, 206);
+  background-color: rgb(77, 98, 190);
   padding: 15px 6% 10px 10;
   flex-direction: row;
   display: flex;
@@ -45,23 +45,31 @@ width: 120px;
 margin: 10px ;
 border-radius: 40%;
 
-
-
 }
 
+.position-header img, .position-header h1{
+  /* display: inline-block; */
+  overflow: auto;
+  float:left;
+}
 
+.position-header {
+  height: 120px
+}
 
-header h1 {
+header div h1 {
     color:rgb(24, 20, 20);
     padding: 5px 1% 5px 6%;
     margin: 0;
     font-size: 4vw;
-    line-height: 1;
-    display: inline;
-
+    position: relative;
+    left: 120px;
+    bottom: 110px;
+   
+  }
   
   /*nav  */
-}
+
 nav {
     display: flex;
     flex-direction: row;
@@ -108,11 +116,13 @@ nav {
     justify-content: flex-end;
     align-items: flex-end;
     text-align: right;
+ 
 
   }
   
 .page div {
     flex: 0 0 90%;
+ 
   }
   
 .page h2 {
@@ -132,6 +142,7 @@ nav {
     max-width: 88%;
     margin-left: auto;
     margin-right: auto;
+    font-size: 1.8rem;
     
     
 
@@ -153,7 +164,7 @@ nav {
     flex: 0 0 20%;
     text-align: right;
     padding-right: 15px;
-    border-right: 4px solid rgb(28, 44, 129);
+    border-right: 4px solid rgb(77, 98, 190);
     font-size: 4vw;
     line-height: 1.1;
   }
@@ -175,9 +186,10 @@ nav {
   }
   
   .sample {
-    border: 5px solid rgb(20, 18, 18);
-    background-color: rgb(32, 45, 58);
-    color: rgb(179, 170, 170);
+    border: 5px solid rgba(58, 37, 142, 0.03);
+    background-color:rgba(77, 98, 190, 0.527);
+    font-size: 4vw;
+    color: rgb(8, 7, 7);
     min-height: 150px;
     max-height: 150px;
     flex-basis: calc(50% - 1em);
@@ -200,11 +212,11 @@ nav {
   }
   
   .sample:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(180, 144, 144, 0.023);
   }
   
   .sample div {
-    background-color:rgba(109, 101, 101, 0.3);
+    background-color:rgba(7, 51, 250, 0.493);
     padding: 8px 10px;
   }
   
@@ -267,9 +279,30 @@ nav {
   @media screen and (max-width: 980px) {
     header {
       padding: 0 0 10px 0;
-      justify-content: center;
-      text-align: center;
+  
     }
+
+    header div {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    .position-header img, .position-header h1{
+      display: block;
+    }
+
+    .position-header {
+      height: 160px;
+    }
+
+    header div h1 {
+      display: block;
+      position:relative;
+      bottom: 10px;
+      left: 10px;
+      font-size: 20px;;
+      }
   
     header h1 {
       width: 100%;
@@ -292,7 +325,7 @@ nav {
       border-bottom: 4px solid rgba(18, 24, 112, 0.3);
       margin-bottom: 20px;
       padding-bottom: 10px;
-      text-align: left;
+      text-align: center;
       font-size: 7vw;
     }
   }
@@ -314,7 +347,7 @@ nav {
   
     .contact address {
       flex-direction: column;
-      align-items: flex-start;
+      align-items: center;
 
     }
   }
@@ -328,4 +361,3 @@ footer {
     color: #0c0b0b;
     text-align: center;
 }
-
