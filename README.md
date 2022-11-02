@@ -19,7 +19,7 @@ Table of Contents
  This portfolio helps others to navigate through my personal information as a description of my self in the main page.
 
  At the top of the page there are 4 sections : 
- -  About Me
+ - About Me
  - Work
  - Contact Me
  - Resume
